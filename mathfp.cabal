@@ -1,10 +1,10 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.31.2.
+-- This file has been generated from package.yaml by hpack version 0.33.0.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 8cf15490154169c9e593c3c60eb1a5d0321295d7d747df9ca2301bd454f327ce
+-- hash: 42476ccd5e2d7d3255c9e6a6755e1e22b7edeefb96fe949a2696b565b05df7f6
 
 name:           mathfp
 version:        0.1.0.0
@@ -27,7 +27,10 @@ source-repository head
 
 library
   exposed-modules:
+      Diff
       Lib
+      Simp
+      Term
   other-modules:
       Paths_mathfp
   hs-source-dirs:
