@@ -26,11 +26,10 @@ If necessary, this installs appropriate versions of [The Glasgow Haskell Compile
 For code highlighting, type insertion, display of compilation errors and warnings etc. from within [Visual Studio Code](https://code.visualstudio.com/) the extension [Haskell for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=haskell.haskell) is recommended. Furthermore, after
 
 ~~~shell
-stack build hlint
-stack build apply-refact
+stack build apply-refact hlint
 ~~~
 
-it will be possible to lint Haskell code with [HLint in Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=lunaryorn.hlint).
+it will also be possible to lint Haskell code.
 
 ## Debug
 

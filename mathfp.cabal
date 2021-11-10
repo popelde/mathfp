@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 42476ccd5e2d7d3255c9e6a6755e1e22b7edeefb96fe949a2696b565b05df7f6
+-- hash: dc36be2df654eee6205cfcce66ac1208d1430f8a78ed1a01ac93152772823d8b
 
 name:           mathfp
 version:        0.1.0.0
@@ -28,7 +28,7 @@ source-repository head
 library
   exposed-modules:
       Diff
-      Lib
+      Integrate
       Simp
       Term
   other-modules:
